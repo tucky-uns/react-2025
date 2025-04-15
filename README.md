@@ -61,7 +61,7 @@ Introducir el consumo de APIs con `fetch`, renderizado dinámico a partir de dat
 **Enunciado:**  
 Crear una aplicación que consuma datos desde una API pública y muestre un catálogo de productos.
 
-Recomendación: utilizar la API de [Fake Store API](https://fakestoreapi.com/products)
+Recomendación: utilizar [CrudCrud](https://crudcrud.com/)
 
 Cada producto debe mostrar:
 - Imagen
