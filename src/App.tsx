@@ -11,7 +11,7 @@ const exercises = [
 ]
 
 export function App() {
-  const [currentExercise, setCurrentExercise] = useState(1)
+  const [currentExercise, setCurrentExercise] = useState(3)
 
   const CurrentComponent = exercises.find(ex => ex.id === currentExercise)?.component
 
