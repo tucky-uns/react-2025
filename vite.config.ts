@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/react/', // Ajusta esto según el nombre de tu repositorio
+  base: '/react-2025/',
   build: {
     outDir: 'dist',
     sourcemap: true,
