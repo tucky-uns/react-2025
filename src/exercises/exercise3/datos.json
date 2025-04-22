@@ -1,0 +1,142 @@
+[
+  {
+    "fecha": "2025-04-21",
+    "equipos": {
+      "visitante": "Detroit Pistons",
+      "local": "New York Knicks"
+    },
+    "puntuacion": {
+      "visitante": 100,
+      "local": 94
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=aNBJd9sQWZM"
+  },
+  {
+    "fecha": "2025-04-21",
+    "equipos": {
+      "visitante": "Los Angeles Clippers",
+      "local": "Denver Nuggets"
+    },
+    "puntuacion": {
+      "visitante": 55,
+      "local": 52
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=ec4dnwR4wUc"
+  },
+  {
+    "fecha": "2025-04-20",
+    "equipos": {
+      "visitante": "Golden State Warriors",
+      "local": "Houston Rockets"
+    },
+    "puntuacion": {
+      "visitante": 95,
+      "local": 85
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=MV9LKWcPEig"
+  },
+  {
+    "fecha": "2025-04-20",
+    "equipos": {
+      "visitante": "Miami Heat",
+      "local": "Cleveland Cavaliers"
+    },
+    "puntuacion": {
+      "visitante": 100,
+      "local": 121
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=aNBJd9sQWZM"
+  },
+  {
+    "fecha": "2025-04-20",
+    "equipos": {
+      "visitante": "Orlando Magic",
+      "local": "Boston Celtics"
+    },
+    "puntuacion": {
+      "visitante": 86,
+      "local": 103
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=xoKJxSEIu3c"
+  },
+  {
+    "fecha": "2025-04-20",
+    "equipos": {
+      "visitante": "Memphis Grizzlies",
+      "local": "Oklahoma City Thunder"
+    },
+    "puntuacion": {
+      "visitante": 80,
+      "local": 131
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=03keLGhbcoo"
+  },
+  {
+    "fecha": "2025-04-19",
+    "equipos": {
+      "visitante": "Minnesota Timberwolves",
+      "local": "Los Angeles Lakers"
+    },
+    "puntuacion": {
+      "visitante": 117,
+      "local": 95
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=6zApSN7E_P0"
+  },
+  {
+    "fecha": "2025-04-19",
+    "equipos": {
+      "visitante": "Detroit Pistons",
+      "local": "New York Knicks"
+    },
+    "puntuacion": {
+      "visitante": 112,
+      "local": 123
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=aNBJd9sQWZM"
+  },
+  {
+    "fecha": "2025-04-19",
+    "equipos": {
+      "visitante": "Los Angeles Clippers",
+      "local": "Denver Nuggets"
+    },
+    "puntuacion": {
+      "visitante": 110,
+      "local": 112
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=ec4dnwR4wUc"
+  },
+  {
+    "fecha": "2025-04-19",
+    "equipos": {
+      "visitante": "Milwaukee Bucks",
+      "local": "Indiana Pacers"
+    },
+    "puntuacion": {
+      "visitante": 98,
+      "local": 117
+    },
+    "etapa": "Playoffs - Primera Ronda",
+    "imagen": "https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg",
+    "video_resumen": "https://www.youtube.com/watch?v=6zApSN7E_P0"
+  }
+]

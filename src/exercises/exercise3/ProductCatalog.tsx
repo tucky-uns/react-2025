@@ -1,10 +1,11 @@
-import styles from './ProductCatalog.module.css'
+import { GameProvider } from './GameContext';
+import GameCatalog from './GameCatalog';
 
 export const ProductCatalog = () => {
 
   return (
-    <div className={styles.container}>
-      <h1>Catálogo de Productos</h1>
-    </div>
+    <GameProvider>
+      <GameCatalog />
+    </GameProvider>
   )
 } 
