@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom'
 import { Counter } from './exercises/exercise1/Counter'
 import { TodoList } from './exercises/exercise2/TodoList'
 import { ProductCatalog } from './exercises/exercise3/ProductCatalog'
@@ -10,27 +10,43 @@ const exercises = [
   { id: 3, name: 'Catálogo de Productos', component: ProductCatalog }
 ]
 
-export function App() {
-  const [currentExercise, setCurrentExercise] = useState(3)
+function ExerciseComponent() {
+  const { exerciseId } = useParams()
+  const navigate = useNavigate()
+  const exercise = exercises.find(ex => ex.id === Number(exerciseId))
+  
+  if (!exercise) {
+    navigate('/1')
+    return null
+  }
 
-  const CurrentComponent = exercises.find(ex => ex.id === currentExercise)?.component
+  const Component = exercise.component
+  return <Component />
+}
+
+export function App() {
+  const location = useLocation()
+  const currentExerciseId = location.pathname.split('/').pop()
 
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
         {exercises.map(exercise => (
-          <button
+          <Link
             key={exercise.id}
-            onClick={() => setCurrentExercise(exercise.id)}
-            className={`${styles.navButton} ${currentExercise === exercise.id ? styles.active : ''}`}
+            to={`${exercise.id}`}
+            className={`${styles.navButton} ${currentExerciseId === exercise.id.toString() ? styles.active : ''}`}
           >
             {exercise.name}
-          </button>
+          </Link>
         ))}
       </nav>
       
       <main className={styles.main}>
-        {CurrentComponent && <CurrentComponent />}
+        <Routes>
+          <Route path="/:exerciseId" element={<ExerciseComponent />} />
+          <Route path="/" element={<ExerciseComponent />} />
+        </Routes>
       </main>
     </div>
   )
